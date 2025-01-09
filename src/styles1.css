@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #eee;
+  padding: 2px;
+}
+
+.header {
+  background-color: #f5ba13;
+  margin: auto;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.footer p {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.note {
+  background: #fff;
+  font-size: 14px;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+form {
+  display: grid;
+}
+
+.create-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.create-input,
+.create-textarea {
+  width: 90%;
+  max-width: 400px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.create-button {
+  background-color: #f5ba13;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.create-button:hover {
+  background-color: #e3a10c;
+}
+
+.note {
+  display: inline-block;
+  background: #fff;
+  font-size: 14px;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+}
+
+.note button {
+  background-color: #f1f1f1;
+  color: #fdb60c;
+  border: none;
+  position: relative;
+  left: 150px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note button:hover {
+  background-color: #e3a10c;
+  color: white;
+}
+header {
+  background-color: #f5ba13;
+  color: white;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.create-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form {
+  position: relative;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  padding: 10px;
+  width: 400px;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+  font-family: inherit;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
+.add-button {
+  position: absolute;
+  bottom: -15px;
+  right: 20px;
+  background-color: #f5ba13;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.add-button:hover {
+  background-color: #e3a10c;
+}
+
+.add-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #e3a10c;
+}
