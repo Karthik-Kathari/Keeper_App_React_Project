@@ -10,7 +10,6 @@ This project is a simple Keeper App built with React. It is inspired by Google K
 - Clean, responsive user interface.
 
 ## Demo:
-(https://i.ibb.co/hZYjj0Z/Keeper-App.png) 
 ![image](https://github.com/user-attachments/assets/079a1094-9465-4a42-a58e-5f5899e302cc)
 
 ## Technologies Used:
