@@ -17,7 +17,4 @@ This project is a simple Keeper App built with React. It is inspired by Google K
 - CSS (Custom styling)
 - JavaScript
 
-## Setup Instructions:
- 1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/Karthik-Kathari/Keeper_App_React_Project.git
+
